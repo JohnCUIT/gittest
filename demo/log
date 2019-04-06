@@ -1,0 +1,94 @@
+tid=0.
+thread 27197 waiting for &lockB.
+====DEBUG[Johnny][test.c][51][thread:27197 waiting:&lockB for 0.000009s]====
+tid=0.
+thread 27197 waiting for &lockA.
+====DEBUG[Johnny][test.c][53][thread:27197 waiting:&lockA for 0.000003s]====
+loop,tid=27197.
+tid=0.
+thread 27198 waiting for &lockA.
+====DEBUG[Johnny][test.c][55][thread:27197 unlocked:&lockA]====
+====DEBUG[Johnny][test.c][67][thread:27198 waiting:&lockA for 0.000156s]====
+loop,tid=27198.
+tid=0.
+thread 27196 waiting for &lockA.
+loop,tid=27197.
+tid=0.
+thread 27198 waiting for &lockB.
+====DEBUG[Johnny][test.c][69][thread:27198 waiting:&lockB for 0.000001s]====
+====DEBUG[Johnny][test.c][57][thread:27197 unlocked:&lockB]====
+====DEBUG[Johnny][test.c][71][thread:27198 unlocked:&lockA]====
+====DEBUG[Johnny][test.c][37][thread:27196 waiting:&lockA for 2.000364s]====
+loop,tid=27198.
+tid=0.
+thread 27197 waiting for &lockB.
+====DEBUG[Johnny][test.c][73][thread:27198 unlocked:&lockB]====
+====DEBUG[Johnny][test.c][51][thread:27197 waiting:&lockB for 0.000050s]====
+loop,tid=27196.
+tid=0.
+thread 27197 waiting for &lockA.
+loop,tid=27197.
+tid=27196.
+[ERROR]mutex:0x603100 maybe cause a deadLock!
+thread 27196 waiting for &lockB.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
+loop,tid=27197.
+loop,tid=27196.
